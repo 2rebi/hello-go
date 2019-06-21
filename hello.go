@@ -5,5 +5,9 @@ type Hello struct {
 }
 
 func (h *Hello) Print() {
-	print("Hello" + h.Word)
+	print(h.get())
+}
+
+func (h *Hello) get() string {
+	return "Hello " + h.Word
 }
