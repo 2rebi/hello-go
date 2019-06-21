@@ -1,4 +1,4 @@
-package main
+package hello
 
 type Hello struct {
 	Word string
